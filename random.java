@@ -10,7 +10,7 @@ public class random {
     }
 
     public String getRandom(){
-        return getName() + getJob() + getEmail();
+        return "\nname: " + name + "\njob: " + job + "\nemail: " + email;
     }
 
     public String getName(){return "\nname: " + name;}

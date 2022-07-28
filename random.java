@@ -3,13 +3,15 @@ public class random {
     private String job;
     private String email;
 
-    public random(String n, String j, String e){
-        this.name = n;
-        this.job = j;
-        this.email = e;
+    public random(String name, String job, String email){
+        this.name = name;
+        this.job = job;
+        this.email = email;
     }
 
     public String getRandom(){
         return "\nname: " + name + "\njob: " + job + "\nemail: " + email;
     }
+
+    public String getName(){return "\nname: " + name;}
 }

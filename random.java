@@ -14,4 +14,8 @@ public class random {
     }
 
     public String getName(){return "\nname: " + name;}
+
+    public String getJob(){return "\njob: " + job;}
+
+    public String getEmail(){return "\nemail: " + email;}
 }
